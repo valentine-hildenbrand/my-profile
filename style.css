@@ -1,0 +1,100 @@
+/*Colors and fonts*/
+
+
+body {
+background-color: #EDEDED;
+color: #474747;
+font-family: 'PT Serif', serif;
+font-size: 15px;
+letter-spacing: 0.05px;
+}
+
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1{
+	color: #FF5E5C;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+
+h2{
+	color: #FF7865;
+    font-weight: 600;
+    font-size: 20px;;
+}
+
+a{
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	font-size: 12px;
+	color: #FFBC59;
+}
+
+a:hover {
+	color: #474747;
+}
+
+/*Custom design with class 99% of the design) */
+
+@media (max-width: 1000px) {
+	.container{
+		width: 600px;
+	}
+}
+
+@media (max-width: 700px) {
+	.container{
+		width: 400px;
+	}
+}
+
+#valentine{
+	width: 160px;
+	border-radius: 50%;
+	box-shadow: 2px 4px 6px #FF7865;
+}
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-white{
+	background: white;
+	border-radius: 4px;
+	margin: 25px 0px;
+	padding: 30px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	text-align: center;
+}
+
+.btn-orange {
+	background-color: #FFBC59;
+	color: white;
+	padding: 10px 15px;
+	border-radius: 4px;
+}
+
+.btn-orange:hover{
+	background-color: #474747;
+	color:  white;
+	text-transform: uppercase;
+	}
+
+.list-inline {
+	list-style: none;
+	padding: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 20px;
+}
+
+#intro p{
+	margin-bottom: 40px;
+}
